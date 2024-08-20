@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+
+header img {
+  width: 100px;
+}
+
+section {
+  padding: 0 0 40px 56px;
+  /* border: 1px solid white; */
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+article {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  display: flex;
+  flex-direction: flex;
+  flex-shrink: 1;
+  overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+article::-webkit-scrollbar {
+  display: none;
+}
+
+article img {
+  height: 150px;
+}
